@@ -1,0 +1,51 @@
+/*
+reset css
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
+body{
+	font:16px/30px 'Raleway', sans-serif;
+	background: #f5f5f5;
+    margin:0;
+}
+.main-div,.vertical-center{
+	border-radius: 5px;
+}
+.main-div {
+    background: url(https://images.unsplash.com/photo-1590634875887-a6a516622e2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80) 0 0 no-repeat scroll;
+    font-size: 18px;
+    height: 450px;
+    max-width: 850px;
+    padding: 15px;
+    margin:0 auto;
+    
+}
+
+/*
+theme
+*/
+.vertical-center {
+    background: none repeat scroll 0 0 rgba(0, 0, 0,0.5);
+    color: #ffffff;
+    padding: 15px;
+    position: relative;
+    top: 50%;
+  	transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+p{
+    margin:0;
+    }
+p:first-line{
+    font-size: x-large;
+}
+h1{
+    margin:0 0 20px 0;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 300;
+    background: none repeat scroll 0 0 rgba(0,0,0.5);
+    color:#fff;
+}
